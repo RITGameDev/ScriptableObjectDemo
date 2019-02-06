@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a4e7291756f424fb38c8d13f383e2e, type: 3}
-  m_Name: Ammo
+  m_Script: {fileID: 11500000, guid: c1e13b2cb56347d4c85b79aba14fa83f, type: 3}
+  m_Name: newGun
   m_EditorClassIdentifier: 
-  Name: .556 Ammo
-  Description: Ammo for the M16 Assult Rifle
-  PickupIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  Weight: 5
+  GunType: 0
+  AmmoType: {fileID: 11400000, guid: cf81ec7aaec71f647af86958e77649ec, type: 2}
+  damage: 8
